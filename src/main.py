@@ -9,6 +9,8 @@ import pyutilitea as tea
 import csv
 from utils import calculate_average, group_by_column
 
+# Told ya it was easy
+
 def load_csv(filepath):
     with open(filepath, "r") as file:
         reader = csv.DictReader(file)
