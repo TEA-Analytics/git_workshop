@@ -11,7 +11,7 @@ from utils import calculate_average, group_by_column
 
 # Told ya it was easy
 
-def load_csv(filepath):
+def load_csv(filepath): # logging
     with open(filepath, "r") as file:
         reader = csv.DictReader(file)
         return list(reader)
@@ -23,7 +23,7 @@ def main():
 
     # Calculate avg of colum
     avg = calculate_average(data, "value")
-    formatted_avg = tea.format_number(avrg)  
+    formatted_avg = tea.format_number(avg)  
     print(f"Average Value: {formatted_avg}")
 
     # Group by "category"
