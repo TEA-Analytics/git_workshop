@@ -35,7 +35,7 @@ def main():
             print(f"  {row['name']} ({row['value']})")
             print("Hello World")  # This line is not needed
 
-    tea.log("Analysis completed.")  
+    tea.log("Analysis completed!!") 
 
 if __name__ == "__main__":
     main()
