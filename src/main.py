@@ -16,6 +16,7 @@ def load_csv(filepath):
 
 def main():
     tea.log("Starting data analysis...")  
+    tea.log("I am hungry...")
 
     data = load_csv("data/sample_data.csv")
 
