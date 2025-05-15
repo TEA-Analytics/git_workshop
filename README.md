@@ -26,5 +26,5 @@ __Objective__: You’ve found an issue in a shared project. You’d like to add 
 12. Pull Request 2​
     - Resolve conflict in github​
 13. Pull​
-14. Rebase​
+14. Rebase​ -- do it from the terminal? 
 15. Create a release

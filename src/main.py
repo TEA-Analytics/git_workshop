@@ -33,8 +33,10 @@ def main():
         print(f"\nGroup: {key}")
         for row in items:
             print(f"  {row['name']} ({row['value']})")
+            print("Hello World")  # This line is not needed
 
     tea.log("Analysis completed.")  
 
 if __name__ == "__main__":
-    mian()
+    main()
+
